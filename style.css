@@ -1,0 +1,65 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.Menu_container{
+    background: rgb(33, 32, 32);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menus{
+    display: flex;
+}
+.space{
+    margin: 10px;
+    padding: 7px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.space:hover{
+    color: blue;
+}
+.logo-photo{
+    width: 120px; 
+}
+
+/* start for design section */
+.btn{
+    color: white;
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    color: gray;
+}
+.banner-img{
+    height: 200px;
+    width: 200px;
+}
+.banner-container{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(30, 28, 28),rgb(30, 28, 28));
+}
+.banner-text{
+    display: center;
+}
+.title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}

@@ -37,7 +37,7 @@
     cursor: pointer;
 }
 .btn:hover{
-    color: gray;
+    color: yellow;
 }
 .banner-img{
     height: 200px;
@@ -50,6 +50,9 @@
     height: 100vh;
     align-items: center;
     background-image: url("./images/background.png"),linear-gradient(45deg,rgb(30, 28, 28),rgb(30, 28, 28));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .banner-text{
     display: center;
@@ -62,4 +65,92 @@
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 15px;
+}
+/* this is about section css code  */
+.about_title{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    /* padding: 30px; */
+}
+
+
+.about-sec-photo{
+    margin: 30px;
+    padding: 30px;
+    display: center;
+}
+.ab-sec-photo{
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+}
+.aboutsection{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text-section{
+    display: center;
+}
+.box{
+    width: 180px;
+    height: 250px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    margin-top: 5px;
+}
+.icon{
+    width: 50px;
+  
+}
+.btn-service{
+   background-color: gray;
+   margin-top: 10px;
+
+
+}
+.box-title{
+
+    font-size: 18px;
+    padding: 10px;
+}
+.box-description{
+    padding: 5px;
+    font-size: 14px;
+}
+.about_title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+.service-container{
+  
+    display: flex;
+    justify-content: space-around;
+}
+.service-section-bg{
+   
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(30, 28, 28),rgb(30, 28, 28));
+}
+
+.fotter-container{
+    background: rgb(33, 32, 32);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around 10px;
+}
+.ft{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.space{
+    margin-top: 30px;
 }
